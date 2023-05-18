@@ -12,3 +12,6 @@ https://drive.google.com/drive/folders/1mLddgEDZZs3u9CkbrwEUvf6X63UHo9pN?usp=sha
 ### Business Problem
 #### - Training a neural network model to identify instances of emergency using live audio.
 ##### - We aim to develop a system that can accurately detect emergency situations using audio data, with the goal of contributing to more effective early warning systems and improving emergency response times.
+
+### Results
+#### Before Data Augmentation
