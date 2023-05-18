@@ -15,3 +15,4 @@ https://drive.google.com/drive/folders/1mLddgEDZZs3u9CkbrwEUvf6X63UHo9pN?usp=sha
 
 ### Results
 #### Before Data Augmentation
+![Classification Report Before Data Augmentation](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Results_Before_DataAugmentation.png?raw=true)
