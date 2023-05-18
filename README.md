@@ -15,15 +15,20 @@ https://drive.google.com/drive/folders/1mLddgEDZZs3u9CkbrwEUvf6X63UHo9pN?usp=sha
 
 ### Results
 #### Before Data Augmentation
+
+##### Classification Report
 ![Classification Report Before Data Augmentation](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Results_Before_DataAugmentation.png?raw=true)
 
 ##### Before data augmentation, from the above classification report, it may seem that we have a good recall score and the model is successful, but in reality the model ended up identifying each audio in the test set as an emergency audio, essentially leading to the above classification report with a recall score of 100%. It is the same as blindly classifying every passed audio file as emergency audio, which is undesirable.
 
 #### After Data Augmentation
+
+##### Classification Report
 ![Classification Report After Data Augmentation](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Results_After_DataAugmentation.png?raw=true)
 
 ##### As we can see above, we achieved an accuracy score of 71% and recall scores of 71% for True Positive instances after data augmentation. Also we have much better accuracy and recall scores for general audio class.
 
-![Classification Report After Data Augmentation](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Results_After_DataAugmentation2.png?raw=true)
+##### Confusion Matrix
+![Confusion Matrix After Data Augmentation](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Results_After_DataAugmentation2.png?raw=true)
 
 ##### The confusion matrix above depicts the number of True Positive, True Negatives, False Positives, and False Negatives. Out of 7 audio samples for each class, we were able to correctly identify 5 samples.
