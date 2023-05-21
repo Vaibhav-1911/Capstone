@@ -22,17 +22,17 @@ https://drive.google.com/drive/folders/1mLddgEDZZs3u9CkbrwEUvf6X63UHo9pN?usp=sha
 #### Identifying ways to differentiate between emergency and non-emergency audio signals
 
 #### Zero Crossing Rate:
-![Zero Crossing - Fire Truck](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Firetruck Siren-Zero crossing.png?raw=true)
+![Zero Crossing - Fire Truck](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Firetruck%20Siren-Zero%20crossing.png?raw=true)
 
-![Zero Crossing - Small Bell](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Small Bell-Zero crossing.png?raw=true)
+![Zero Crossing - Small Bell](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Small%20Bell-Zero%20crossing.png?raw=true)
 
 ##### Looking at the zero crossing rate of audio samples brought us to the conclusion that it is not an ideal measure for differentiating between Emergency and Non-Emergency sounds. There is no pattern that identifies exclusive rates of sign change between emergency and non-emergency audio.
 
 #### Mel Spectrograms:
 
-![Spectrograms - Ambulance Siren](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Ambulence Siren -Spectogram.png?raw=true)
+![Spectrograms - Ambulance Siren](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Ambulence%20Siren%20-Spectogram.png?raw=true)
 
-![Spectrograms - Burping](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Burping -Spectogram.png?raw=true)
+![Spectrograms - Burping](https://github.com/Vaibhav-1911/Capstone/blob/main/Results/Images/Burping%20-Spectogram.png?raw=true)
 
 
 ##### By looking at the Mel Spectograms above we could see that there is a pattern in the color scale for most emergency audios and they always leave a fainting trail where the decibals (In our case the color scale we see) keep reducing over time. This is a great differentiating factor between Emergency and Non-Emergency audios as non-emergency audios produce either very low decibal sound or they don't leave a fainting trail. These images of mel spectrograms could be great for feeding into a deep learning model for differentiating emergency audios from non-emergency audios
